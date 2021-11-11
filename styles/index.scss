@@ -11,7 +11,9 @@ body {
     margin: auto;
     max-width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: myColors.$backgroundColor;
     
 }
@@ -100,13 +102,14 @@ p {
     flex-direction: column;
     justify-content: center;
     margin-top: 2rem;
-}
-.arrow {
+    color: myColors.$white;
     font-family: myFonts.$secondFont;
     line-height: 2rem;
+}
+.arrow {
     align-items: center;
     position: absolute;
     text-align: center;
-    letter-spacing: 0.2vw;
-    color: myColors.$white;
+    letter-spacing: 3px;  
 }
+
